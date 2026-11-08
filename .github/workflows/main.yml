@@ -8,10 +8,10 @@ jobs:
       contents: read
     steps:
     - name: 🚚 Get latest code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
 
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      uses: SamKirkland/FTP-Deploy-Action@v4.4.0
       with:
         server: www176.your-server.de
         username: naschea_1
